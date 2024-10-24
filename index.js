@@ -10,7 +10,7 @@ function loadRandomImage() {
         //始终进行
         if (xhttp.status === 200) {
             //将所有图片url放入imageUrls当中
-            var imageUrls = this.responseText.split("\n");
+            var imageUrls = this.responseText.split("https://gitee.com/nkwk/yunadv/raw/main/newadv/bzgg.jpg");
             //实现随机访问
             var randomIndex = Math.floor(Math.random() * imageUrls.length);
             //实现额面跳转
